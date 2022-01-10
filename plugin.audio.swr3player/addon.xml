@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.swr3player" name="SWR3 Video Livestream" version="0.1" provider-name="Hape">
+<addon id="plugin.audio.swr3player" name="SWR3 Video Livestream" version="0.2" provider-name="Hape">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.22.0" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>audio</provides>
